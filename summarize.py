@@ -34,12 +34,13 @@ from get_content import get_pdf_markdown
 
 # Add your PDFs here.
 _PDFS = [
-    "https://arxiv.org/pdf/2501.12948",
-    "https://arxiv.org/pdf/2403.04642",
-    "https://arxiv.org/pdf/2501.04519",
-    "https://arxiv.org/pdf/2502.11886",
-    "https://arxiv.org/pdf/2505.24864",
-    "https://arxiv.org/pdf/2505.03335",
+    "https://arxiv.org/pdf/2501.12948",  # DeepSeek-R1
+    "https://arxiv.org/pdf/2403.04642",  # RLHF
+    "https://arxiv.org/pdf/2501.04519",  # rStar-Math
+    "https://arxiv.org/pdf/2502.11886",  # LIMR
+    "https://arxiv.org/pdf/2505.24864",  # ProRL
+    "https://arxiv.org/pdf/2505.03335",  # Absolute-Zero
+    "https://arxiv.org/pdf/2503.14476",  # DAPO
 ]
 # Sample output, via in the viewer:
 # https://curator.bespokelabs.ai/datasets/26d4adb10ab6445687b085bd28f5aec0?appId=3fb0753708f042718c36775d92b9fa71
