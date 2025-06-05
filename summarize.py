@@ -133,7 +133,8 @@ Text of the paper is:
 
 if __name__ == "__main__":
     texts = get_pdf_markdown(_PDFS)
-    summarizer = PaperSummarizer(model_name="claude-sonnet-4-20250514", backend="litellm")
+    summarizer = PaperSummarizer(
+        model_name="claude-sonnet-4-20250514", backend="litellm")
     summaries_response = summarizer(texts)
     print(summaries_response.viewer_url)
     print(f"Nicely formatted site, assuming you didn't change the format above: {summaries_response.viewer_url}?appId=3fb0753708f042718c36775d92b9fa71")
