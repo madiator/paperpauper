@@ -14,6 +14,16 @@ pip install -r requirements.txt
 python summarize.py
 ```
 
+This runs with some default PDFs. If you want to specify some specific pdfs:
+```bash
+python summarize.py --pdf https://arxiv.org/pdf/2506.04178
+```
+or
+```bash
+python summarize.py --pdf https://arxiv.org/pdf/2506.04178,https://arxiv.org/pdf/2410.01679
+```
+
+
 ### PDF parsing
 I am using [aryn](https://www.aryn.ai/) to extract markdown from pdfs, and you will need an API key. Nominal usage should be free, but you can plug other parsers you are familiar with, in `get_content.py`.
 

@@ -1,3 +1,2 @@
 bespokelabs-curator
 aryn-sdk
-torch
